@@ -1,0 +1,26 @@
+/* Estilo de la lista */
+#fruits-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Color de fondo para los elementos impares */
+  #fruits-list li:not(.even) {
+    background-color: #afc438;
+  }
+  
+  /* Color de texto para los elementos impares */
+  #fruits-list li:not(.even) {
+    color: #FF5733;
+  }
+  
+  /* Color de fondo para los elementos pares */
+  #fruits-list li.even {
+    background-color: #22b5d3;
+  }
+  
+  /* Color de texto para los elementos pares */
+  #fruits-list li.even {
+    color: #D35400;
+  }
